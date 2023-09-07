@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Body */
+
+body {
+    background-color: rgb(191, 147, 169);
+}
+
+
+/* Header */
+
+header {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 22px;
+}
+
+.logo {
+    width: 300px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+/* Main */
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+}
+
+/* Footer */
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.contenedorEquipo {
+    margin: 20px;
+    border: 5px solid #333;
+    border-radius: 5px;
+}
+
+.imgEquipo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.contenedorEquipo p {
+    background-color: gray;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Iframe */
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+/* Formulario */
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type=text],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    background-color: #333;
+    color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.miLogo2 {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.miFondo {
+    background-color: rgb(138, 3, 48);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.miLink:hover {
+    background-color: palevioletred;
+    color: black;
+    border-radius: 5px;
+}
+
+
+
+.tituloPeluqeria {
+    background-color: rgb(138, 3, 48);
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.tituloPeluqeria h1 {
+    font-size: 50px;
+}
+
+
+.miPie {
+    background-color:rgb(138, 3, 48);
+    text-transform: uppercase;
+}
+
+
+
+
